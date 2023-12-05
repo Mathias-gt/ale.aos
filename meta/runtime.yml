@@ -1,6 +1,24 @@
 ---
 requires_ansible: ">=2.14.0"
 plugin_routing:
+  cliconf:
+    aos:
+      redirect: ale.aos.aos
+  doc_fragments:
+    aos:
+      redirect: ale.aos.aos
+  module_utils:
+    network.aos:
+      redirect: ale.aos.network.aos
+    network.aos.utils:
+      redirect: ale.aos.network.aos.utils
+    network.aos.utils.utils:
+      redirect: ale.aos.network.aos.utils.utils
+    network.aos.aos:
+      redirect: ale.aos.network.aos.aos
   modules:
     config:
       redirect: ale.aos.aos_config
+  terminal:
+    aos:
+      redirect: ale.aos.aos

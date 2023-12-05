@@ -67,7 +67,6 @@ from ansible_collections.ansible.netcommon.plugins.module_utils.network.common.c
 from ansible_collections.ansible.netcommon.plugins.module_utils.network.common.utils import to_list
 from ansible_collections.ansible.netcommon.plugins.plugin_utils.cliconf_base import (
     CliconfBase,
-    enable_mode,
 )
 
 from ansible_collections.ale.aos.plugins.module_utils.network.aos.aos import session_name
@@ -86,7 +85,6 @@ class Cliconf(CliconfBase):
         self._device_info = {}
         self._session_support = None
 
-    @enable_mode
     def get_config(self, source="running", flags=None, format="text"):
         options_values = self.get_option_values()
         if format not in options_values["format"]:
