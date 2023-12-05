@@ -460,7 +460,7 @@ Common return values are documented `here <https://docs.ansible.com/ansible/late
                             <div>The set of commands that will be pushed to the remote device</div>
                     <br/>
                         <div style="font-size: smaller"><b>Sample:</b></div>
-                        <div style="font-size: smaller; color: blue; word-wrap: break-word; word-break: break-all;">[&#x27;hostname switch01&#x27;, &#x27;interface Ethernet1&#x27;, &#x27;no shutdown&#x27;]</div>
+                        <div style="font-size: smaller; color: blue; word-wrap: break-word; word-break: break-all;">[&#x27;system name "switch01"&#x27;, &#x27;interfaces port 1/1/2 admin-state enable&#x27;]</div>
                 </td>
             </tr>
             <tr>
