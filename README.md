@@ -30,12 +30,12 @@ The Alcatel-Lucent Enterprise AOS collection supports ``network_cli`` connection
 ### Cliconf plugins
 Name | Description
 --- | ---
-[alcatel.aos.aos](https://github.com/Mathias-gt/ale.aos/blob/main/docs/ale.aos.aos_cliconf.rst)|Use aos cliconf to run command on Alcatel-Lucent Enterprise AOS platform
+[ale.aos.aos](https://github.com/Mathias-gt/ale.aos/blob/main/docs/ale.aos.aos_cliconf.rst)|Use aos cliconf to run command on Alcatel-Lucent Enterprise AOS platform
 
 ### Modules
 Name | Description
 --- | ---
-[alcatel.aos.aos_config](https://github.com/Mathias-gt/ale.aos/blob/main/docs/ale.aos.aos_config_module.rst)|Manage Alcatel-Lucent Enterprise AOS configuration sections
+[ale.aos.aos_config](https://github.com/Mathias-gt/ale.aos/blob/main/docs/ale.aos.aos_config_module.rst)|Manage Alcatel-Lucent Enterprise AOS configuration sections
 
 <!--end collection content-->
 
@@ -61,13 +61,13 @@ This collection includes [network resource modules](https://docs.ansible.com/ans
 
 ### Using modules from the Alcatel-Lucent Enterprise AOS collection in your playbooks
 
-You can call modules by their Fully Qualified Collection Namespace (FQCN), such as `alcatel.aos.aos_config`.
+You can call modules by their Fully Qualified Collection Namespace (FQCN), such as `ale.aos.aos_config`.
 The following example task replaces configuration changes in the existing configuration on a Alcatel-Lucent Enterprise AOS network device, using the FQCN:
 
 ```yaml
 ---
-  - name: Replace device configuration of specified L2 interfaces with provided configuration.
-    alcatel.aos.aos_config:
+  - name: Enable a specified port.
+    ale.aos.aos_config:
       lines:
         - interfaces port 1/1/1 admin-state disable
 ```
