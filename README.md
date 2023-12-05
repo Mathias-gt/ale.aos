@@ -66,7 +66,7 @@ The following example task replaces configuration changes in the existing config
 
 ```yaml
 ---
-  - name: Enable a specified port.
+  - name: Disable a port.
     ale.aos.aos_config:
       lines:
         - interfaces port 1/1/1 admin-state disable
