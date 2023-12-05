@@ -1,0 +1,6 @@
+---
+requires_ansible: ">=2.14.0"
+plugin_routing:
+  modules:
+    config:
+      redirect: ale.aos.aos_config

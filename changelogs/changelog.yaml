@@ -1,0 +1,13 @@
+ancestor: null
+releases:
+  1.0.0:
+    modules:
+      - description: Manage Alcatel-Lucent Enterprise AOS configuration sections
+        name: aos_config
+        namespace: ""
+    plugins:
+      cliconf:
+        - description: Use aos cliconf to run command on Alcatel-Lucent Enterprise AOS platform
+          name: aos
+          namespace: null
+    release_date: "2023-12-05"

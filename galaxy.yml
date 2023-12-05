@@ -1,0 +1,14 @@
+---
+authors:
+  - Mathias Guillemot (@Mathias-gt)
+dependencies:
+  "ansible.netcommon": ">=6.0.0"
+license_file: LICENSE
+name: aos
+description: Ansible Network Collection for Alcatel-Lucent Enterprise AOS devices.
+namespace: ale
+readme: README.md
+repository: https://github.com/tbd
+issues: https://github.com/tbd
+tags: [ale, aos, networking]
+version: 1.0.0
