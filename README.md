@@ -30,12 +30,12 @@ The Alcatel-Lucent Enterprise AOS collection supports ``network_cli`` connection
 ### Cliconf plugins
 Name | Description
 --- | ---
-[alcatel.aos.aos](https://github.com/ansible-collections/ale.aos/blob/main/docs/alcatel.aos.aos_cliconf.rst)|Use aos cliconf to run command on Alcatel-Lucent Enterprise AOS platform
+[alcatel.aos.aos](https://github.com/Mathias-gt/ale.aos/blob/main/docs/alcatel.aos.aos_cliconf.rst)|Use aos cliconf to run command on Alcatel-Lucent Enterprise AOS platform
 
 ### Modules
 Name | Description
 --- | ---
-[alcatel.aos.aos_config](https://github.com/ansible-collections/ale.aos/blob/main/docs/alcatel.aos.aos_config_module.rst)|Manage Alcatel-Lucent Enterprise AOS configuration sections
+[alcatel.aos.aos_config](https://github.com/Mathias-gt/ale.aos/blob/main/docs/alcatel.aos.aos_config_module.rst)|Manage Alcatel-Lucent Enterprise AOS configuration sections
 
 <!--end collection content-->
 
