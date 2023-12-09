@@ -107,6 +107,26 @@ class Cliconf(CliconfBase):
         cmd = cmd.strip()
         return self.send_command(cmd)
 
+    def edit_config(self, candidate=None, replace=None, comment=None):
+        resp = {}
+        results = []
+        requests = []
+
+        for line in to_list(candidate):
+            if not isinstance(line, Mapping):
+                line = {"command": line}
+            cmd = line["command"]
+            try:
+                results.append(self.send_command(**line))
+            except AnsibleConnectionFailure as exc:
+                # Handle connection failure or other exceptions as needed
+                raise
+            requests.append(cmd)
+
+        resp["request"] = requests
+        resp["response"] = results
+        return resp
+
     def get(
         self,
         command,
