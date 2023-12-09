@@ -32,11 +32,11 @@ from ansible_collections.ansible.netcommon.plugins.plugin_utils.terminal_base im
 
 class TerminalModule(TerminalBase):
     terminal_stdout_re = [
-        re.compile(rb"[\s\S]*")
+        re.compile(rb"[\w@+\-\.:\/\[\]]+[>#%] ?$")
     ]
 
     terminal_stderr_re = [
         re.compile(rb"ERROR:")
     ]
 
-    terminal_config_prompt = re.compile(r".*")
+    terminal_config_prompt = re.compile(r"^.+[>#\$]$")
