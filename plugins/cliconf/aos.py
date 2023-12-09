@@ -74,7 +74,6 @@ from ansible_collections.ale.aos.plugins.module_utils.network.aos.aos import ses
 
 class Cliconf(CliconfBase):
     __rpc__ = CliconfBase.__rpc__ + [
-        "commit",
         "discard_changes",
         "get_diff",
         "run_commands",
@@ -148,9 +147,6 @@ class Cliconf(CliconfBase):
             newline=newline,
             check_all=check_all,
         )
-
-    def commit(self):
-        self.send_command("commit")
 
 
     def run_commands(self, commands=None, check_rc=True):
