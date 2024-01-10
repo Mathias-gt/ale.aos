@@ -176,7 +176,7 @@ options:
     - When this option is configured as C(validate_config), the module will return before
       with the running-config before applying the intended config and after with the session
       config after applying the intended config to the session.
-    default: session
+    default: running
     type: str
     choices:
     - startup
@@ -417,7 +417,7 @@ def main():
                 "running",
                 "validate_config",
             ],
-            default="session",
+            default="running",
         ),
         diff_ignore_lines=dict(type="list", elements="str"),
         running_config=dict(aliases=["config"]),
