@@ -398,4 +398,4 @@ Status
 Authors
 ~~~~~~~
 
-- Peter Sprygada (@privateip)
+- Mathias Guillemot (@Mathias-gt)
