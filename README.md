@@ -45,7 +45,9 @@ Click the ``Content`` button to see the list of content included in this collect
 
 You can install the Alcatel-Lucent Enterprise AOS collection with the Ansible Galaxy CLI:
 
-    ansible-galaxy collection install ale.aos
+    git clone https://github.com/Mathias-gt/ale.aos.git
+    cd ale.aos
+    ansible-galaxy collection install ./ale-aos-1.0.0.tar.gz
 
 You can also include it in a `requirements.yml` file and install it with `ansible-galaxy collection install -r requirements.yml`, using the format:
 
