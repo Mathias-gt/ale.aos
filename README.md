@@ -64,6 +64,12 @@ The following example task replaces configuration changes in the existing config
         - interfaces port 1/1/1 admin-state disable
 ```
 
+## Release notes
+
+<!--Add a link to a changelog.md file or an external docsite to cover this information. -->
+
+Release notes are available [here](https://github.com/Mathias-gt/ale.aos/blob/main/CHANGELOG.rst).
+
 ## More information
 
 - [Ansible network resources](https://docs.ansible.com/ansible/latest/network/getting_started/network_resources.html)
