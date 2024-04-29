@@ -32,6 +32,7 @@ Name | Description
 ### Modules
 Name | Description
 --- | ---
+[ale.aos.aos_command](https://github.com/Mathias-gt/ale.aos/blob/main/docs/ale.aos.aos_command_module.rst)|Run arbitrary commands on an Alcatel-Lucent Enterprise AOS device
 [ale.aos.aos_config](https://github.com/Mathias-gt/ale.aos/blob/main/docs/ale.aos.aos_config_module.rst)|Manage Alcatel-Lucent Enterprise AOS configuration sections
 
 <!--end collection content-->
