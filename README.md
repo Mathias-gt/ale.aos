@@ -1,9 +1,6 @@
 
 
 # Alcatel-Lucent Enterprise AOS Collection
-[![CI](https://zuul-ci.org/gated.svg)](https://dashboard.zuul.ansible.com/t/ansible/project/github.com/ansible-collections/ale.aos) <!--[![Codecov](https://img.shields.io/codecov/c/github/ansible-collections/ale.aos)](https://codecov.io/gh/ansible-collections/ale.aos)-->
-[![Codecov](https://codecov.io/gh/ansible-collections/ale.aos/branch/main/graph/badge.svg)](https://codecov.io/gh/ansible-collections/ale.aos)
-[![CI](https://github.com/ansible-collections/ale.aos/actions/workflows/tests.yml/badge.svg?branch=main&event=schedule)](https://github.com/ansible-collections/ale.aos/actions/workflows/tests.yml)
 
 The Ansible Alcatel-Lucent Enterprise AOS collection includes a variety of Ansible content to help automate the management of Alcatel-Lucent Enterprise AOS network appliances.
 
