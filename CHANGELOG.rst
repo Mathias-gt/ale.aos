@@ -19,4 +19,5 @@ Cliconf
 New Modules
 -----------
 
+- aos_command - Run arbitrary commands on an Alcatel-Lucent Enterprise AOS device
 - aos_config - Manage Alcatel-Lucent Enterprise AOS configuration sections
