@@ -4,7 +4,7 @@
 
 The Ansible Alcatel-Lucent Enterprise AOS collection includes a variety of Ansible content to help automate the management of Alcatel-Lucent Enterprise AOS network appliances.
 
-This collection has been tested against Alcatel-Lucent Enterprise AOS TDB.
+This collection has been tested against Alcatel-Lucent Enterprise AOS 8.9R03.
 
 <!--start requires_ansible-->
 ## Ansible version compatibility
