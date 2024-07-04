@@ -5,7 +5,7 @@
 ale.aos.aos
 **************
 
-**Use aos cliconf to run command on Arista AOS platform**
+**Use aos cliconf to run command on Alcatel-Lucent Enterprise AOS platform**
 
 
 Version added: 1.0.0
